@@ -1,4 +1,8 @@
 import os
+form pyfiglet import Figlet
+f = Figlet(font = 'slant')
+banner=(f.renderText('calculator'))
+print (colored(banner,"blue"))
 def sum():
     a = []
     sum = 0
